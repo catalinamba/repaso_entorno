@@ -15,10 +15,10 @@ public class clase {
 				
 		try {
 			
-			double resultado = num1 / num2;
-			System.out.println("El resultado de la division es:"+resultado);
+			int resultado = num1-num2;
+			System.out.println("El resultado de la resta es:"+resultado);
 		}catch(Exception e) {
-			System.out.println("Error:No se puede dividir entre cero");
+			System.out.println("Error:Opcion no valida");
 		}finally {
 			consola.close();
 		}
