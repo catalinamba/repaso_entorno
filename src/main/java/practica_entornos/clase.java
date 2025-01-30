@@ -10,15 +10,15 @@ public class clase {
 		System.out.println("ingresa un numero");
 		int num1=consola.nextInt();
 				
-		System.out.println("ingresa segundo numero");
+		System.out.println("ingresa otro numero");
 		int num2=consola.nextInt();
 				
 		try {
 			
-			double resultado = num1 / num2;
-			System.out.println("El resultado de la division es:"+resultado);
+		int resultado = num1 + num2;
+			System.out.println("El resultado de la suma es:"+resultado);
 		}catch(Exception e) {
-			System.out.println("Error:No se puede dividir entre cero");
+			System.out.println("Error:opcion no valida");
 		}finally {
 			consola.close();
 		}
